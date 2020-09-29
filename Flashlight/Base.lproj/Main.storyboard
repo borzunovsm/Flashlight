@@ -14,21 +14,7 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUP-bq-wbQ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
-                                <connections>
-                                    <action selector="buttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="kT5-L1-I08"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="YUP-bq-wbQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ja8-IB-TrZ"/>
-                            <constraint firstItem="YUP-bq-wbQ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RtS-RP-RMR"/>
-                            <constraint firstItem="YUP-bq-wbQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dEg-Ie-did"/>
-                            <constraint firstItem="YUP-bq-wbQ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xez-WC-QO1"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
